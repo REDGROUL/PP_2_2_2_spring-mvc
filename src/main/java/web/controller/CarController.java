@@ -17,10 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-
 public class CarController {
-
-    private Object model;
     private CarService carService;
 
     @Autowired
